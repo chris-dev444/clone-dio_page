@@ -5,9 +5,6 @@ import { Header } from '../../components/Header';
 const Home = () => {
     return (<>
         <Header/>
-        <Button title="teste1"/>
-        <Button variant="secondary" title="Teste2"/>
-        <Link to="/login">Ir para o login</Link>
     </>)
 
 }
