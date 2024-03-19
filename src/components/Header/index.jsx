@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '../Button';
+import logo from '../../assets/logo.png';
 
 import {
     BuscarInputContainer,
@@ -18,7 +19,7 @@ const Header = () =>{
         <Wrapper>
             <Container>
                 <Row>
-                
+                    <img src={logo} alt='logo' width="50px" height="20px"></img>
                     <BuscarInputContainer>
                         <Input placeholder='Buscar...'/>
                     </BuscarInputContainer>  
